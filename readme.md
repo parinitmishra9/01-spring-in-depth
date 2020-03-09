@@ -19,3 +19,4 @@
 - Step 16 - Using Component Scan to scan for beans
 - Step 17 - Lifecycle of a Bean - @PostConstruct and @PreDestroy
 - Step 18 - Container and Dependency Injection (CDI) - @Named, @Inject
+- Step 19 - Removing Spring Boot in Basic Application
