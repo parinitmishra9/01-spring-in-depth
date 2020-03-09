@@ -25,3 +25,4 @@
 - Step 22 - Defining Spring Application Context using XML - Part 2
 - Step 23 - Mixing XML Context with Component Scan for Beans defined with Annotations
 - Step 24 - IOC Container vs Application Context vs Bean Factory
+- Step 25 - @Component vs @Service vs @Repository vs @Controller

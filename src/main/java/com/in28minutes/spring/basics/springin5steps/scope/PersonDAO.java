@@ -1,14 +1,14 @@
 package com.in28minutes.spring.basics.springin5steps.scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /**
  * @Project spring-in5-steps
  * Created by @Author Parinit on 3/9/2020
  * at 4:23 PM
  */
-@Component
+@Repository
 public class PersonDAO {
 
     @Autowired
