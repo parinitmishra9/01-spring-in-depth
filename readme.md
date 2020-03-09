@@ -9,3 +9,5 @@
 - Step 7 - Constructor and Setter Injection
 - Step 8 - Spring Modules
 - Step 9 - Spring Projects
+- Step 10 - Why is Spring Popular?
+- Step 11 - Dependency Injection - A few more examples
