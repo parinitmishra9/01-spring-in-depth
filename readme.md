@@ -21,3 +21,4 @@
 - Step 18 - Container and Dependency Injection (CDI) - @Named, @Inject
 - Step 19 - Removing Spring Boot in Basic Application
 - Step 20 - Fixing minor stuff - Add Logback and Close Application Context
+- Step 21 - Defining Spring Application Context using XML - Part 1
