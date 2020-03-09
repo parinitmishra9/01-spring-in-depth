@@ -17,3 +17,4 @@
 - Step 15 - Complex scenarios with Scope of a Spring Bean - Mix of Prototype and Singleton
 - Step 15B -  Difference Between Spring Singleton and GOF Singleton
 - Step 16 - Using Component Scan to scan for beans
+- Step 17 - Lifecycle of a Bean - @PostConstruct and @PreDestroy
