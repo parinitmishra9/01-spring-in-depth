@@ -22,3 +22,5 @@
 - Step 19 - Removing Spring Boot in Basic Application
 - Step 20 - Fixing minor stuff - Add Logback and Close Application Context
 - Step 21 - Defining Spring Application Context using XML - Part 1
+- Step 22 - Defining Spring Application Context using XML - Part 2
+- Step 23 - Mixing XML Context with Component Scan for Beans defined with Annotations
