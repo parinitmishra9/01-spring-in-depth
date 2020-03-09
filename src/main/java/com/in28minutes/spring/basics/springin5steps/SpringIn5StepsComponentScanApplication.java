@@ -22,12 +22,13 @@ public class SpringIn5StepsComponentScanApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringIn5StepsComponentScanApplication.class);
+        try (AnnotationConfigApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext(SpringIn5StepsComponentScanApplication.class)){
 
-        ComponentDAO componentDAO =
-                applicationContext.getBean(ComponentDAO.class);
+            ComponentDAO componentDAO =
+                    applicationContext.getBean(ComponentDAO.class);
 
-        LOGGER.info("{}", componentDAO);
-
+            LOGGER.info("{}", componentDAO);
+        }
     }
 }

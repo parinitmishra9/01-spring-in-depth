@@ -22,11 +22,13 @@ public class SpringIn5StepsCdiApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringIn5StepsCdiApplication.class);
+        try (AnnotationConfigApplicationContext applicationContext =
+                     new AnnotationConfigApplicationContext(SpringIn5StepsCdiApplication.class)) {
 
-        SomeCdiBusiness business =
-                applicationContext.getBean(SomeCdiBusiness.class);
+            SomeCdiBusiness business =
+                    applicationContext.getBean(SomeCdiBusiness.class);
 
-        LOGGER.info("{} dao-{}", business, business.getSomeCDIDAO());
+            LOGGER.info("{} dao-{}", business, business.getSomeCDIDAO());
+        }
     }
 }

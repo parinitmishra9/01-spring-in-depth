@@ -20,3 +20,4 @@
 - Step 17 - Lifecycle of a Bean - @PostConstruct and @PreDestroy
 - Step 18 - Container and Dependency Injection (CDI) - @Named, @Inject
 - Step 19 - Removing Spring Boot in Basic Application
+- Step 20 - Fixing minor stuff - Add Logback and Close Application Context

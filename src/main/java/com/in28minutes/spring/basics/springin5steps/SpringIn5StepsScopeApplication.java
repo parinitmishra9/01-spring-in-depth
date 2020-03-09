@@ -22,19 +22,19 @@ public class SpringIn5StepsScopeApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext applicationContext =new AnnotationConfigApplicationContext(SpringIn5StepsScopeApplication.class);
+        try (AnnotationConfigApplicationContext applicationContext =
+                     new AnnotationConfigApplicationContext(SpringIn5StepsScopeApplication.class)) {
+            PersonDAO personDao =
+                    applicationContext.getBean(PersonDAO.class);
 
-        PersonDAO personDao =
-                applicationContext.getBean(PersonDAO.class);
+            PersonDAO personDao2 =
+                    applicationContext.getBean(PersonDAO.class);
 
-        PersonDAO personDao2 =
-                applicationContext.getBean(PersonDAO.class);
+            LOGGER.info("{}", personDao);
+            LOGGER.info("{}", personDao.getJdbcConnection());
 
-        LOGGER.info("{}", personDao);
-        LOGGER.info("{}", personDao.getJdbcConnection());
-
-        LOGGER.info("{}", personDao2);
-        LOGGER.info("{}", personDao.getJdbcConnection());
-
+            LOGGER.info("{}", personDao2);
+            LOGGER.info("{}", personDao.getJdbcConnection());
+        }
     }
 }
