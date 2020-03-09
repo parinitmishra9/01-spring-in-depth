@@ -14,3 +14,5 @@
 - Step 12 - Autowiring in Depth - by Name and @Primary
 - Step 13 - Autowiring in Depth - @Qualifier annotation
 - Step 14 - Scope of a Bean - Prototype and Singleton
+- Step 15 - Complex scenarios with Scope of a Spring Bean - Mix of Prototype and Singleton
+- Step 15B -  Difference Between Spring Singleton and GOF Singleton
