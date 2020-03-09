@@ -12,4 +12,3 @@
 - Step 10 - Why is Spring Popular?
 - Step 11 - Dependency Injection - A few more examples
 - Step 12 - Autowiring in Depth - by Name and @Primary
-- Step 13 - Autowiring in Depth - @Qualifier annotation
