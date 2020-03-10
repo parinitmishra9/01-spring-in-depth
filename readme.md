@@ -27,3 +27,4 @@
 - Step 24 - IOC Container vs Application Context vs Bean Factory
 - Step 25 - @Component vs @Service vs @Repository vs @Controller
 - Step 26 - Read values from external properties file
+- Step 27 - Spring Unit Testing with a Java Context
