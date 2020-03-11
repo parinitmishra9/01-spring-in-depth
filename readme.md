@@ -28,3 +28,4 @@
 - Step 25 - @Component vs @Service vs @Repository vs @Controller
 - Step 26 - Read values from external properties file
 - Step 27 - Spring Unit Testing with a Java Context
+- Step 28 - Spring Unit Testing with an XML Context
